@@ -14,7 +14,7 @@
  *= require_self
  */
 
- @font-face {
+@font-face {
   font-family: "Poppins";
   src: url("/app/assets/fonts/poppins/Poppins-Black.ttf") format("truetype");
   font-weight: normal;
