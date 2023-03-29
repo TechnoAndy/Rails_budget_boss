@@ -9,6 +9,6 @@ class User < ApplicationRecord
   validates :password, presence: true
 
   # Associations
-  has_many :entities, dependent: :destroy
+  has_many :chronicles, dependent: :destroy
   has_many :groups, dependent: :destroy
 end

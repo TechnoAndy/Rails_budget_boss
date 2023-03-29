@@ -15,7 +15,7 @@
     <% else %>
         <% @groups.each do |group| %>
           <div class="category">
-            <%= link_to user_entity_path(current_user.id, group.id) do %>
+            <%= link_to user_chronicle_path(current_user.id, group.id) do %>
               <p class="icon">
                 <%= image_tag group.icon_url if group.icon %>
               </p>

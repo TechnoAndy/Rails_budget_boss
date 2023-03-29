@@ -1,8 +1,8 @@
-class Transents < ApplicationRecord
+class Chronicle < ApplicationRecord
   belongs_to :author, class_name: 'User', foreign_key: 'author_id'
 
-  has_many :entities_groups, dependent: :destroy
-  has_many :groups, through: :entities_groups, dependent: :destroy
+  has_many :chronicles_groups, dependent: :destroy
+  has_many :groups, through: :chronicles_groups, dependent: :destroy
 
   # Valudation
   validates :name, presence: true, length: { minimum: 2 }
