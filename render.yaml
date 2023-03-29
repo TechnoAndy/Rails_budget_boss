@@ -1,6 +1,6 @@
 databases:
   - name: postgres
-    databaseName: Rails Budget Boss
+    databaseName: Rails_budget_boss
     user: andy159
 
 services:
