@@ -86,3 +86,4 @@ production:
   database: Rails_budget_boss_production
   username: Rails_budget_boss
   password: <%= ENV["RAILS_BUDGET_BOSS_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
