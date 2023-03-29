@@ -1,18 +1,18 @@
 databases:
-  - name: postgres
-    databaseName: Rails_budget_boss
-    user: andy159
+  - name: rails_budget_boss
+    databaseName: rails_budget_boss_ypoi
+    user: rails_budget_boss_ypoi_user
 
 services:
   - type: web
-    name: rails
+    name: rails_budget_boss
     env: ruby
     buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec rails"
+    startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: postgres
+          name: rails_budget_boss
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
