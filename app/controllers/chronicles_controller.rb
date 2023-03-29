@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ChroniclesController < ApplicationController
   before_action :authenticate_user!
 
@@ -44,7 +46,7 @@ class ChroniclesController < ApplicationController
       end
     else
       puts 'Not deleted'
-      flash.now[:error] = "Unable to delete chronicle."
+      flash.now[:error] = 'Unable to delete chronicle.'
     end
   end
 
