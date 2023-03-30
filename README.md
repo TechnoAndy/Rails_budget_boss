@@ -119,22 +119,7 @@ To run tests, run the following command:
   bin/rails test test/models/article_test.rb
 ```
 
-<!--
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
 
@@ -146,8 +131,6 @@ Example:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andy-diegaardt/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
