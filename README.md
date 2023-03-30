@@ -68,7 +68,7 @@ Budget Boss is a mobile web application where you can manage your budget.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://budget-app-wod9.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
